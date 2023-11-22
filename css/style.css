@@ -10,4 +10,12 @@
 .box {
     color: white;
     background-color: black;
+    border: 1px solid white;
+}
+
+/* 
+    MAIN
+*/
+#first-section {
+    text-align: center;
 }
