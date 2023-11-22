@@ -1,0 +1,13 @@
+/* 
+    GENERAL
+*/
+:root {
+    --header-top-bg-color: #2C3D50; /* È lo stesso del footer bottom */
+    --header-bottom-bg-color: #1ABC9C;
+    --footer-top-bg-color: #39546D;
+}
+
+.box {
+    color: white;
+    background-color: black;
+}
