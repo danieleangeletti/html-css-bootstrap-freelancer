@@ -11,6 +11,11 @@
     color: #888888;
 }
 
+.avatar-container {
+    width: 25%;
+    margin: 0 auto;
+}
+
 /* 
     HEADER
 */
@@ -21,6 +26,7 @@
 header .header-top ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 
 header .header-top ul li {
@@ -48,7 +54,42 @@ header .header-top ul li {
 }
 
 .box {
-    background-color: black;
+    border: 1px dashed black;
+}
+
+.header-bottom {
+    background-color: var(--header-bottom-bg-color);
+    color: white;
+    padding: 24px 0;
+}
+
+.left-of-the-star, .right-of-the-star {
+    width: 45%;
+}
+
+.left-of-the-star hr, .right-of-the-star hr {
+    width: 30%;
+    /* border: 1px solid white; */
+    /* allineamento verticale? */
+    /* padding o margin per dividere le sezioni? */
+}
+
+.star-container {
+    width: 10%;
+}
+
+header .header-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .header-bottom ul li {
+    display: inline-block;
+}
+
+header .header-bottom a {
+    text-decoration: none;
     color: white;
 }
 
