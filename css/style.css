@@ -7,10 +7,44 @@
     --footer-top-bg-color: #39546D;
 }
 
-.box {
+.grey-hamburger {
+    color: #888888;
+}
+
+/* 
+    HEADER
+*/
+.header-top {
+    background-color: var(--header-top-bg-color);
+}
+
+header .header-top ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+header .header-top ul li {
+    display: inline-block;
+    padding: 0 6px;
+}
+
+.header-top a {
+    text-decoration: none;
     color: white;
-    background-color: black;
-    border: 1px solid white;
+}
+
+.box-header-top {
+    padding: 16px 12px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#hamburger {
+    padding: 4px;
+    background-color: var(--header-top-bg-color);
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
 }
 
 /* 
