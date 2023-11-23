@@ -47,6 +47,11 @@ header .header-top ul li {
     border-radius: 4px;
 }
 
+.box {
+    background-color: black;
+    color: white;
+}
+
 /* 
     MAIN
 */
