@@ -67,11 +67,10 @@ header .header-top ul li {
     width: 45%;
 }
 
-.left-of-the-star hr, .right-of-the-star hr {
+.line {
     width: 30%;
-    /* border: 1px solid white; */
-    /* allineamento verticale? */
-    /* padding o margin per dividere le sezioni? */
+    height: 3px;
+    background-color: white;
 }
 
 .star-container {
