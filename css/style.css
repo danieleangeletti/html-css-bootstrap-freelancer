@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+}
+
 /* 
     HEADER
 */
@@ -97,6 +101,12 @@ header .header-bottom a {
 */
 #first-section {
     text-align: center;
+    padding: 24px 0;
+}
+
+#first-section .row > div {
+    padding-top: calc(var(--bs-gutter-x) * .5);
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
 }
 
 #second-section {
