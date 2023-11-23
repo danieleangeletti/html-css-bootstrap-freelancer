@@ -7,8 +7,8 @@
     --footer-top-bg-color: #39546D;
 }
 
-.header-bottom-bg-color {
-    background-color: var(--header-bottom-bg-color);
+.header-bottom-font-color {
+    color: var(--header-bottom-bg-color);
 }
 
 .grey-hamburger {
@@ -59,10 +59,6 @@ header .header-top ul li {
     background-color: var(--header-top-bg-color);
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-}
-
-.box {
-    border: 1px dashed black;
 }
 
 .header-bottom {
@@ -162,8 +158,45 @@ header .header-bottom a {
 /* 
     FOOTER
 */
-.footer-bottom {
+footer {
+    color: white;
+}
+
+.footer-top {
+    background-color: var(--footer-top-bg-color);
     text-align: center;
+}
+
+.footer-top .row > div {
+    padding-top: calc(var(--bs-gutter-x) * .5);
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+}
+
+.footer-top p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.footer-top a {
+    color: white;
+}
+
+.footer-top i {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-color: var(--footer-top-bg-color);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer-bottom {
+    background-color: var(--header-top-bg-color);
+    text-align: center;
+}
+
+.footer-bottom .box {
+    padding: 24px 0;
 }
 
 
