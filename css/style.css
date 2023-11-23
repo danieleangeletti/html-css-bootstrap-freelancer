@@ -136,6 +136,27 @@ header .header-bottom a {
 
 #third-section {
     text-align: center;
+    padding: 24px 0;
+}
+
+#third-section .my-form-control {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#third-section textarea {
+    min-height: 100px;
+}
+
+#third-section .button-container {
+    padding-top: 12px;
+}
+
+#third-section button {
+    border: 0;
+    background-color: var(--header-bottom-bg-color);
 }
 
 /* 
